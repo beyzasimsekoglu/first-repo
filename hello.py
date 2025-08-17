@@ -9,6 +9,7 @@ def main():
     iris = load_iris(as_frame=True)
     X = iris.data
     y = iris.target
+    
 
     # Split into train and test sets
     X_train, X_test, y_train, y_test = train_test_split(
